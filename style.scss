@@ -1,0 +1,48 @@
+
+
+body,html{
+    background-image: url(assets/animated-gifs-of-fighting-game-backgrounds-8.webp);
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.login-div{
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: black;
+    text-shadow: 4px 4px 8px white;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-transform: capitalize !important;
+}
+
+.names{
+    color: white;
+    background-color: rgb(218, 0, 0);
+    width: max-content;
+    padding: 0 30px;
+    border-radius: 10px;
+
+}
+
+.img1{
+
+    position: absolute;
+    left: 50px  ;
+    bottom: 0;
+
+}
+.img2{
+
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    
+}
